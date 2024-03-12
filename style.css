@@ -1,5 +1,5 @@
 html {
-    background-color: cadetblue;
+    background-color: #f4eade;
 }
 
 .button {
@@ -18,17 +18,17 @@ html {
 }
 
 .rojo {
-    background-color: #FF4081;
+    background-color: #ed8c72;
     color: #fff;
 }
 
 .azul {
-    background-color: #2196F3;
+    background-color: #2988bc;
     color: #fff;
 }
 
 .cyan {
-    background-color: #21f372;
+    background-color: #2f496e;
     color: #fff;
 }
 
