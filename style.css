@@ -1,0 +1,39 @@
+html {
+    background-color: cadetblue;
+}
+
+.button {
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    margin: 6px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.button:hover {
+    width: 210px;
+    box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+.rojo {
+    background-color: #FF4081;
+    color: #fff;
+}
+
+.azul {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.cyan {
+    background-color: #21f372;
+    color: #fff;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
