@@ -1,5 +1,10 @@
 html {
     background-color: #f4eade;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 32px;
+    font-style: normal;
+    text-shadow: 5px 3px 3px rgba(17, 17, 17, 0.5);
 }
 
 .button {
