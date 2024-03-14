@@ -1,10 +1,10 @@
 html {
     background-color: #f4eade;
-    font-family: "Caveat", cursive;
+    font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 32px;
     font-style: normal;
-    text-shadow: 5px 3px 3px rgba(17, 17, 17, 0.5);
+    /* text-shadow: 5px 3px 3px rgba(17, 17, 17, 0.5); */
 }
 
 .button {
@@ -15,11 +15,6 @@ html {
     margin: 6px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     font-weight: bold;
-}
-
-.button:hover {
-    width: 210px;
-    box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.2);
 }
 
 .rojo {
@@ -38,7 +33,18 @@ html {
 }
 
 .contenedor {
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }

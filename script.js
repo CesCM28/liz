@@ -4,6 +4,7 @@ const myArray = ['Que bonitos ojos tienes!!',
     'Como me gusta tu piel, tan cálida y suave!!',
     'Que linda te vez hoy, fiu fiu!!',
     'uuuuuh la la, que hermosa estas!!',
+    'Me encanta tu sonrisa!!',
 ];
 
 const meEncantaList = ['Que te ponías a perrear y moverme la colita!!', 
@@ -11,19 +12,23 @@ const meEncantaList = ['Que te ponías a perrear y moverme la colita!!',
     'Como me miras!!',
     'La paciencia que tienes!!',
     'Cuando pestañeas de manera coqueta, me derrite!!',
+    'Que te gusta tener limpio y ordenado!!'
 ];
 
 const emojis = ['&#128513;', '&#128516;', '&#128521;', '&#128522;', '&#128517;']
   
 var mensaje = document.getElementById("mensaje");
-  
-document.getElementById("piropos").onclick = () => {
-    const randomElement = myArray[Math.floor(Math.random() * myArray.length)];
-    const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
-    mensaje.innerHTML = randomElement + " " + randomEmoji;
+
+var piropo = document.getElementById("piropos").onclick = () => {
+    print(myArray);
 };
 
-document.getElementById("meEncanta").onclick = () => {
-    const randomElement = meEncantaList[Math.floor(Math.random() * meEncantaList.length)]; 
-    mensaje.innerHTML = randomElement;
+var encanta = document.getElementById("meEncanta").onclick = () => {
+    print(meEncantaList);
 };
+
+function print(array) {
+    const randomElement = array[Math.floor(Math.random() * array.length)];
+    const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+    mensaje.innerHTML = randomElement + " " + randomEmoji;
+}
